@@ -1,0 +1,15 @@
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+scikit-learn
+xgboost
+shap
+imbalanced-learn
+sqlalchemy
+python-dotenv
+streamlit
+jupyterlab
+pytest
+openpyxl
