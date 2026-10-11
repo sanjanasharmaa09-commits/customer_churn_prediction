@@ -35,7 +35,7 @@ def flag_non_products(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def remove_bad_debt_rows(df: pd.DataFrame) -> pd.DataFrame:
-    """Drop accounting adjustment rows (StockCode == 'B')."""
+    """Drop accounting adjustment rows (Stockcode == 'B')."""
     return df[df["StockCode"] != "B"].copy()
 
 
