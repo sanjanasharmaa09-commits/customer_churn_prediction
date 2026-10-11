@@ -91,8 +91,8 @@ def print_report(report: dict) -> None:
 
 
 if __name__ == "__main__":
-    RAW_PATH = Path("D:/SUBJECTS/Data_Analyst/AnalystProjects/customer_churn_prediction/data/raw/online_retail_II.csv")
-    PROCESSED_PATH = Path("D:/SUBJECTS/Data_Analyst/AnalystProjects/customer_churn_prediction/data/processed/online_retail_II_clean.csv")
+    RAW_PATH = Path("data/raw/online_retail_II.csv")
+    PROCESSED_PATH = Path("processed/online_retail_II_clean.csv")
 
     raw_df = pd.read_csv(RAW_PATH)
     clean_df, quality_report = clean_data(raw_df)
